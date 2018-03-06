@@ -143,7 +143,8 @@ my_frame_3.pack()
 #
 #
 #create another frame(my_frame_4)
-my_frame_4 = tk.Frame(root).pack()
+my_frame_4 = tk.Frame(root)
+my_frame_4.pack()
 
 my_canvas = tk.Canvas(my_frame_4, bg='white', width=340, height=80)
 my_canvas.pack()
