@@ -34,7 +34,7 @@ entry.bind("<Button-2>", show_event_details) # right mouse click
 entry.bind("<FocusIn>", show_event_details)
 
 #binding entry widget alphabets and numbers from keyboard
-alpha_num_keys = 'ABCDEFGHIGKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789'
+alpha_num_keys = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789'
 for key in alpha_num_keys:
     entry.bind("<KeyPress-%s>"%key, show_event_details)
 
