@@ -28,7 +28,7 @@ def select_all(event=None):
 
 
 def find_text(event=None):
-    search_toplevel = Toplevel(root)
+    search_toplevel = Tk.Toplevel(root)
     search_toplevel.title('Find Text')
     search_toplevel.transient(root)
     search_toplevel.resizable(False, False)
