@@ -11,7 +11,7 @@ implementation of:
 """
 
 from tkinter import Tk, PhotoImage, Menu, Frame, Text, Scrollbar, IntVar, \
-    StringVar
+    StringVar, Toplevel, Label, Entry, Checkbutton, Button, END
 
 PROGRAM_NAME = "Footprint Editor"
 
